@@ -1,0 +1,10 @@
+Project Name: Edge detection system protype for the partially blind.
+What is it?: edge detection w/ object perception system that outlines the shape of an objct for the partially blind.
+Why?: to help the partially blind be able to see the outline of an object on a screen or on a projection unto the glass of the glasses frame.
+
+How?:
+	Step 1: Obtain materials - Small camera, Raspberry pi, Glasses Frame, Wires, Compter (for coding), etc.
+	Step 2: Set up raspberry pi and the camera, then attach to the glasses frame.
+	Step 3: Obtain image from camera.
+	Step 4: send Image to Raspberry pi for editing and edge detection process.
+	Step 5: send the new image back to display form (Screen, Projection, or otherwise.)
