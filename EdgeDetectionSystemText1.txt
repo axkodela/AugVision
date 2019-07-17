@@ -1,6 +1,9 @@
-Project Name: Edge detection system protype for the partially blind.
-What is it?: edge detection w/ object perception system that outlines the shape of an objct for the partially blind.
-Why?: to help the partially blind be able to see the outline of an object on a screen or on a projection unto the glass of the glasses frame.
+Project Name: A system to improve the vision of people with partial sight.
+
+What is it?
+	I would like to create a way for people with partial vision to be able to see better. There are multiple ways that I can go about this. I could use a cumputer created system to detect edges, detect differences in contrast between two overlapping objects, and also detect obstacles. By doing this, people with partial vision would be able to obtain better vision with the help of this device.
+
+Why? to help the partially blind be able to see the outline of an object on a screen or on a projection unto the glass of the glasses frame.
 
 How?:
 	Step 1: Obtain materials - Small camera, Raspberry pi, Glasses Frame, Wires, Compter (for coding), etc.
