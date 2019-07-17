@@ -1,0 +1,1 @@
+Idea: Test the color difference between each pixel and the pixels around that same one to see whether there could be an edge.
