@@ -17,5 +17,16 @@ Other Information:
   It lives only in a pipe between two other programs.
   Etc.
 
+PBM Images can be opened with the following programs:
+   Inkscape
+   XnView
+   Adobe Photoshop
+   Netpbm
+   ACD Systems Canvas
+   Corel PaintShop Pro
+   And some others as well.
 
 More info to come in the near future.
+Sources:
+  http://netpbm.sourceforge.net/doc/pbm.html
+  https://www.lifewire.com/pbm-file-2622169
