@@ -1,1 +1,19 @@
-here I would like to comment on the PBM format for images.
+## Here I would like to comment on the PBM format for images.
+
+What is it?
+  The PBM format is a type of monochrome file format.
+  The acronym "PBM" stands for Portable Bit Map.
+  There are no data, delimiters, or padding before, after, or between images.
+
+What does it look like?
+  Basically it looks like:
+    P1
+    Height and Width of the preferred image. for example, 100 100 would give an image of size 100x100.
+    (optional) comments could be put here if wanted.
+    (lines of numbers being either 1s or 0s.)
+
+Other Information:
+  This is not a format that one would normally use to store a file or to transmit it to someone.
+  It's an intermediary format.
+  It lives only in a pipe between two other programs.
+  Etc.
