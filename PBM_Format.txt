@@ -3,19 +3,17 @@
 What is it?
   The PBM format is a type of monochrome file format.
   The acronym "PBM" stands for Portable Bit Map.
-  There are no data, delimiters, or padding before, after, or between images.
 
 What does it look like?
-    P1
-    Height and Width of the preferred image. for example, 100 100 would give an image of size 100x100.
+    P1 [Later Formats have higher numbers]
+    Height and Width of the image. for example, 100 100 would give an image of size 100x100.
     (optional) comments could be put here if wanted.
     (lines of numbers being either 1s or 0s.)
 
 Other Information:
   This is not a format that one would normally use to store a file or to transmit it to someone.
-  It's an intermediary format.
-  It lives only in a pipe between two other programs.
-  Etc.
+  This is because it is an uncompressed format.
+  Although, this means that the image files are large, this also makes them more readable and easier to process.
 
 PBM Images can be opened with the following programs:
    Inkscape
