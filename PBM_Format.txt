@@ -17,3 +17,6 @@ Other Information:
   It's an intermediary format.
   It lives only in a pipe between two other programs.
   Etc.
+
+
+More info to come in the near future.
