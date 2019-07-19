@@ -6,7 +6,6 @@ What is it?
   There are no data, delimiters, or padding before, after, or between images.
 
 What does it look like?
-  Basically it looks like:
     P1
     Height and Width of the preferred image. for example, 100 100 would give an image of size 100x100.
     (optional) comments could be put here if wanted.
