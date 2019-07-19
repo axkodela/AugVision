@@ -27,6 +27,6 @@ PBM Images can be opened with the following programs:
    And some others as well.
 
 More info to come in the near future.
-Sources:
+Sources of information:
   http://netpbm.sourceforge.net/doc/pbm.html
   https://www.lifewire.com/pbm-file-2622169
