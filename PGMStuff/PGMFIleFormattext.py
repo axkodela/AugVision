@@ -3,44 +3,43 @@
 ##PGM Test1
 
 ## What Is PGM?
-		PGM is 
+		'''
+		PGM is The Acronym for Portable Grey Map.
+		PGM is the image format for any grayscale image.
+		'''
 
+## What does it look like?
+		'''
+		Some Header Information.
+		a grid of numbers ranging from 0 (black) to 65,536 (white).
+		'''
 
-## Python Code For PGM rnadom image ##
-import random
+## Programs that can Open PGM files:
+		'''
+		Windows:
+			File Viewer Plus
+			GIMP
+			Corel PaintShop Pro 2019
+			ACD Systems Canvas X 2019
+			ACD Systems ACDSee Photo Studio
+			Inkscape
+			Netpbm
+			Adobe Photoshop with CartaPGM plug-in
+			Any text editor
+		Mac:
+			GIMP
+			Inkscape
+			Netpbm
+			Adobe Photoshop with CartaPGM plug-in
+			Any text editor
+		Linux:
+			GIMP
+			Inkscape
+			Netpbm
+			Any text editor
+		'''
 
-## Creating Each Singular Array inside of the outer one.
-def mkarray():
-	x = [] ## singular array with numbers
-	for i in range(300): 
-		x.append(random.randint(0,255)) ## append random numbers as each element 
-	return x
-## end
-
-bigy = [] ## outer array.
-
-for n in range(300):
-	bigy.append(mkarray())
-
-
-## Printing to file stuff ##
-def ArrToString(arr):
-	tmp1 = ""
-	for i in arr:
-		tmp1 += str(i) + " "
-	return tmp1
-
-zerosArray = []
-for i in range(24):
-	zerosArray.append(int("0"))
-
-def toFile(arr):
-	myf = open("test3.pgm","w")
-	myf.write("P5\n300 300\n255\n")
-	print(zerosArray)
-	for i in arr:
-		myf.write(ArrToString(i))
-		print(i)
-	myf.close()
-
-toFile(bigy)
+## Other Information:
+		'''
+		Some header Information
+		'''
