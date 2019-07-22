@@ -1,7 +1,3 @@
-## will put python file here later on.
-
-##PGM Test1
-
 ## What Is PGM?
 		'''
 		PGM is The Acronym for Portable Grey Map.
