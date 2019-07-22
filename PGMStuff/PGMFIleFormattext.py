@@ -41,5 +41,10 @@
 
 ## Other Information:
 		'''
-		Some header Information
+		The header Information contains the PGM file format type (either P2 for text or P5 for Binary).
+		It also contains information like the width and height of the image.
+		it also conatins the maximum amount of color the image can have.
 		'''
+
+## Sources:
+	'https://fileinfo.com/extension/pgm'
