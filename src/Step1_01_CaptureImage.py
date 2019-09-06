@@ -1,4 +1,6 @@
 import cv2
+
+## Capture Image from webcam:
 def show_myImage():
 	camera = cv2.VideoCapture(0)
 	ret_err, img = camera.read()
@@ -6,5 +8,7 @@ def show_myImage():
 	cv2.waitKey(0)
 	cv2.destroyAllWindows()
 
-
 show_myImage()
+
+
+## Processing Image:
