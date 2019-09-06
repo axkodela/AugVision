@@ -1,0 +1,5 @@
+Step 1: Take the image from webcam (for now). In the the future, we might use a face-mounted camera.
+
+There are multiple ways of accessing images from a camera, but I chose OpenCV.
+
+I chose OpenCV because it is widely available, open source, and has a lot of ability to do Image Manipulation, specifically edge detection.
